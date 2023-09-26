@@ -1,5 +1,5 @@
 # VanishVault
-A web-based application that allows authenticated users to create secure private rooms for sharing sensitive information. Once all assigned users have accessed the shared data within these rooms, the information is automatically and permanently deleted from the database, ensuring the highest level of data privacy and security.
+A web-based application that allows authenticated users to securely share sensitive information. Messages are encrypted using an asymetric encryption system. Once a message is read by the receiver, it automatically and permanently deletes itself from the database, ensuring the highest level of data privacy and security.
 
  # Developed By
  Team Mohawk CodeReady for Bell Geekfest Hackathon 2023
@@ -12,8 +12,8 @@ A web-based application that allows authenticated users to create secure private
 
 # Objective/Why would you use it
 
-- Allow authenticated users to create secure private rooms for sharing sensitive information. 
-- Once all assigned users have accessed the shared data within these rooms, the information is automatically and permanently deleted from the database, ensuring the highest level of data privacy and security.
+- Allow authenticated users to share sensitive information in an ecnrypted format. 
+- Once a message is read by the receiver, it automatically and permanently deletes itself from the database, ensuring the highest level of data privacy and security.
 
 ## Use cases 
 - Vanish Vault can be used for sending messages from patient to provider in compliance with PHIPA (personal health information protection act).
